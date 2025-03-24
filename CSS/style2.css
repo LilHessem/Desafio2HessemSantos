@@ -8,15 +8,15 @@ nav a{
     font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 nav a :hover{
-    text-decoration
+    text-decoration: underline color(srgb rgb(252, 252, 252) rgb(255, 255, 255) rgb(255, 255, 255));
 }
 header{
     background-color: black;
-    box-shadow: 0px 5px 10px;
+    box-shadow: 0px 5px 0px;
 }
 nav img{
-    width: 150px;
-    padding-left: 150px;
+    width: 100px;
+    padding-left: 200px;
 }
 nav{
   display: flex;
@@ -24,12 +24,89 @@ nav{
   justify-content: space-evenly;
   align-items: center;
 }
-.card{
-
-}
 div h1{
     padding-top: 25px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0px 0px 2px;
+    font-size: 30px;
+}
+div img{
+    width: 200px;
+    overflow: hidden;
+}
+.x{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.x p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.y{
+    display: flex;
+    flex-direction: column;
+    
+}
+.c{
+    text-decoration: solid;
+    text-shadow: 0px 0px 2px;
+}
+.card{
+ margin: 20px;
+ width: 300px;
+ border-radius: 20px;
+ overflow: hidden;
+ box-shadow: 0px 5px 5px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h2{
+    font-size: 25px;
+}
+.card-content{
+ padding: 10px;
+}
+.card img{
+ width: 100%;
+}
+.v{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content: center;
+ background-color: black;
+}
+footer p{
+    color: aliceblue;
+}
+.b{
+    margin: 20px;
+    border-radius: 20px;
+    width: 150px;
+    box-shadow: 0px 5px 5px ;
+    text-align: center;
+    background-color: rgb(243, 232, 129);
+    padding: 0.5px;
+}
+.b p{
+
+}
+.n{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.n a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.n a :hover{
+    text-decoration: underline;
 }
