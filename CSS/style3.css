@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    text-decoration: none;
+    color: black;
+}
+nav a :hover{
+    text-decoration: underline;
+}
