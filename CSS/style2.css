@@ -7,8 +7,9 @@ nav a{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-nav a :hover{
-    text-decoration: underline color(srgb rgb(252, 252, 252) rgb(255, 255, 255) rgb(255, 255, 255));
+header nav a :hover{
+    text-decoration: underline;
+    color: aliceblue;
 }
 header{
     background-color: black;
@@ -33,7 +34,7 @@ div h1{
 }
 div img{
     width: 200px;
-    overflow: hidden;
+    border-radius: 15px;
 }
 .x{
     display: flex;
@@ -43,7 +44,7 @@ div img{
     overflow: hidden;
 }
 .x p{
-    font-size: 17px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .y{
@@ -90,7 +91,7 @@ footer p{
     width: 150px;
     box-shadow: 0px 5px 5px ;
     text-align: center;
-    background-color: rgb(243, 232, 129);
+    background-color: rgb(175, 175, 175);
     padding: 0.5px;
 }
 .b p{
@@ -109,4 +110,10 @@ footer p{
 }
 .n a :hover{
     text-decoration: underline;
+}
+.card-content h2{
+    padding-top: 10px;
+}
+.card :hover{
+    transform: scale(1.05);  
 }
